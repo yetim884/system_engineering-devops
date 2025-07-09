@@ -1,2 +1,3 @@
 #!/bin/bash
-{ echo ".."; ls | paste -sd' '; } > ls_cwd_content
+echo ".." > ls_cwd_content
+(ls | grep -v '^ls_cwd_content$') | paste -sd' ' >> ls_cwd_content
