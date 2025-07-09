@@ -1,3 +1,2 @@
 #!/bin/bash
-echo ".." > ls_cwd_content
-ls | tr '\n' ' ' | sed 's/ $//' >> ls_cwd_content
+{ echo ".."; ls | paste -sd' '; } > ls_cwd_content
