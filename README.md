@@ -1,4 +1,3 @@
-```bash
-#!/bin/bash
-echo "Hello from the script"
-```
+
+## Shell Basics
+This directory contains Bash scripts for basic shell commands.
