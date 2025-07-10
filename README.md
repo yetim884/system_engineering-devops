@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "This is a valid README script"
+# 0x00-shell_basics  
+Project scripts for shell basics in ALX
