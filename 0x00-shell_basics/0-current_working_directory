@@ -1,2 +1,2 @@
-## Shell Basics
-This directory contains Bash scripts for basic shell commands.
+#!/bin/bash
+pwd
