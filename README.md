@@ -1,2 +1,3 @@
-# 0x00-shell_basics  
-Project scripts for shell basics in ALX
+# System Engineering DevOps
+
+This repository contains project files for SE 102.
