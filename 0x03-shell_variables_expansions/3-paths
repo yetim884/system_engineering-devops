@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | sed 's/::\+/:EMPTY:/g' | tr ':' '\n' | grep -ce '^.\+$'
+echo "$PATH" | tr ':' '\n' | grep -cv '^$'
