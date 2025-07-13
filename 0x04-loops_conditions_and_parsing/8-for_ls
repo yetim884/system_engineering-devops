@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Displays the current directory content, showing only the part after the first dash
+# Displays the current directory content, showing only part after first dash if present
 
 for file in *; do
-  if [[ -f "$file" && "$file" == *-* ]]; then
+  if [[ -f "$file" ]]; then
     echo "${file#*-}"
   fi
 done
