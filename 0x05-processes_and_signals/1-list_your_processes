@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays a list of all currently running processes in a user-oriented format with hierarchy
+# A Bash script that displays all running processes with USER, STARTED (HH:MM:SS), and COMMAND with hierarchy
 
-ps -axo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest
+ps -eo user,lstart,cmd --forest | awk 'NR==1{print "USER STARTED COMMAND"; next} {print $1, substr($5,1,8), $6}'
