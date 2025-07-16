@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script to list all users owning running processes
+# A Bash script that lists the users owning the running processes
 
 echo "USER"
 ps -eo user --no-headers | sort | uniq
