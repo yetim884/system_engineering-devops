@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# A Bash script that displays all running processes with USER, STARTED (HH:MM:SS), and COMMAND with hierarchy
+# Script to list all users owning running processes
 
-ps -eo user,lstart,cmd --forest | awk 'NR==1{print "USER STARTED COMMAND"; next} {print $1, substr($5,1,8), $6}'
+echo "USER"
+ps -eo user --no-headers | sort | uniq
