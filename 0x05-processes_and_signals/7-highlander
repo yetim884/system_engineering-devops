@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# This script prints "To infinity and beyond" indefinitely and handles SIGTERM gracefully
+# Handle SIGTERM by printing OK and keep running
 
-trap 'echo "I am invincible!!!"; echo "OK"' SIGTERM
+trap 'echo "OK"' SIGTERM
 
 while true; do
     echo "To infinity and beyond"
     sleep 2
 done
+
 
