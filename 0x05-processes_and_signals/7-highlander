@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Handle SIGTERM by printing OK and keep running
+# This script prints "To infinity and beyond" indefinitely
+# and prints OK when receiving SIGTERM signal (does not exit)
 
-trap 'echo "OK"' SIGTERM
+trap 'echo OK' SIGTERM
 
 while true; do
     echo "To infinity and beyond"
