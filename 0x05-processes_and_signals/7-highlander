@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# 7-highlander
+# This script prints a message when receiving SIGTERM
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true; do
-  echo "To infinity and beyond"
-  sleep 1
+    echo "To infinity and beyond"
+    sleep 1
 done

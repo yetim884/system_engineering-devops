@@ -1,0 +1,17 @@
+total 59
+drwx------. 2 u0_a203 u0_a203 3488 Jul 18 12:08 .
+drwx------. 9 u0_a203 u0_a203 3488 Jul 16 17:00 ..
+-rwx------. 1 u0_a203 u0_a203   63 Jul 18 09:17 0-what-is-my-pid
+-rwx------. 1 u0_a203 u0_a203  120 Jul 18 09:17 1-list_your_processes
+-rwx------. 1 u0_a203 u0_a203   66 Jul 16 17:49 2-show_your_bash_pid
+-rwx------. 1 u0_a203 u0_a203  100 Jul 16 18:00 3-show_your_bash_pid_made_easy
+-rw-------. 1 u0_a203 u0_a203  163 Jul 18 09:17 4-to_infinity_and_beyond
+-rw-------. 1 u0_a203 u0_a203  144 Jul 18 09:17 5-dont_stop_me_now
+-rw-------. 1 u0_a203 u0_a203  268 Jul 18 09:17 6-stop_me_if_you_can
+-rwx------. 1 u0_a203 u0_a203   83 Jul 18 11:59 7-file
+-rwx------. 1 u0_a203 u0_a203  183 Jul 18 09:54 7-highlander
+-rwx------. 1 u0_a203 u0_a203  192 Jul 18 09:59 8-beheaded_process
+-rwx------. 1 u0_a203 u0_a203   36 Jul 18 12:32 8-cwd_state
+-rw-------. 1 u0_a203 u0_a203   28 Jul 18 09:17 README.md
+-rw-------. 1 u0_a203 u0_a203   12 Jul 18 12:00 \*\\'"Best School"'\\*\$\?*****:)
+-rw-------. 1 u0_a203 u0_a203    0 Jul 18 12:33 ls_cwd_content
