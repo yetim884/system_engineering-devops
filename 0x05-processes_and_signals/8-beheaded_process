@@ -4,5 +4,6 @@
 pids=$(pgrep -f 7-highlander)
 
 if [ -n "$pids" ]; then
-  kill -9 "$pids"
+  # shellcheck disable=SC2086
+  kill -9 $pids
 fi
