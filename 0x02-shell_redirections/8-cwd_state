@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo ".."; ls | grep -v '^ls_cwd_content$' | paste -sd' ') > ls_cwd_content
+ls -la > ls_cwd_content

@@ -1,2 +1,20 @@
-..
-*\'"Best School"\'\*$\?*****:) 1-confused_smiley 2-hellofile 3-twofiles 4-lastlines 5-firstlines 6-third_line 7-file 8-cwd_state iacta
+total 70
+-rw-------. 1 u0_a203 u0_a203   12 Jul 14 16:38 *\'"Best School"'\*$\?*****:)
+drwx------. 4 u0_a203 u0_a203 3488 Jul 18 12:39 .
+drwx------. 9 u0_a203 u0_a203 3488 Jul 16 17:00 ..
+-rw-------. 1 u0_a203 u0_a203   32 Jul 13 08:34 0-hello_world
+drwx------. 2 u0_a203 u0_a203 3488 Jul 16 17:14 0x02-shell_redirections
+-rwx------. 1 u0_a203 u0_a203   30 Jul  9 19:06 1-confused_smiley
+-rwx------. 1 u0_a203 u0_a203   48 Jul  9 20:50 10-no_more_js
+-rwx------. 1 u0_a203 u0_a203   28 Jul  9 19:10 2-hellofile
+-rwx------. 1 u0_a203 u0_a203   39 Jul  9 19:13 3-twofiles
+-rwx------. 1 u0_a203 u0_a203   29 Jul  9 19:16 4-lastlines
+-rwx------. 1 u0_a203 u0_a203   29 Jul  9 19:20 5-firstlines
+-rwx------. 1 u0_a203 u0_a203   40 Jul  9 19:23 6-third_line
+-rwx------. 1 u0_a203 u0_a203   88 Jul 16 17:14 7-file
+-rwx------. 1 u0_a203 u0_a203   36 Jul 18 12:52 8-cwd_state
+-rwx------. 1 u0_a203 u0_a203   37 Jul  9 20:46 9-duplicate_last_line
+-rw-------. 1 u0_a203 u0_a203   67 Jul 13 08:34 README.md
+-rw-------. 1 u0_a203 u0_a203   42 Jul 13 08:34 iacta
+-rw-------. 1 u0_a203 u0_a203    0 Jul 18 12:52 ls_cwd_content
+drwx------. 2 u0_a203 u0_a203 3488 Jul  9 20:53 subdir
